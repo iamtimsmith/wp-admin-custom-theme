@@ -1,0 +1,123 @@
+#adminmenuwrap {
+  width: 100% !important;
+  top: 50px !important;
+
+  #adminmenu {
+    background: $black;
+
+    @include breakpoint($tablet) {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      margin: 0 !important;
+
+      #menu {
+        &-dashboard {
+          order: 1;
+        }
+
+        &-pages {
+          order: 2;
+        }
+
+        &-posts {
+          order: 3;
+        }
+
+        &-comments {
+          order: 4;
+        }
+
+        &-media {
+          order: 5;
+        }
+
+        &-appearance {
+          order: 6;
+        }
+
+        &-users {
+          order: 7;
+        }
+
+        &-plugins {
+          order: 8;
+        }
+
+        &-tools {
+          order: 9;
+        }
+
+        &-settings {
+          order: 10;
+        }
+      }
+    }
+  }
+
+  .menu-top {
+    a {
+      @include breakpoint($tablet) {
+        display: flex;
+        padding: 5px 15px !important;
+      }
+    }
+
+    &.current,
+    &.wp-has-current-submenu {
+      background: linear-gradient(to bottom right, $teal, $purple) !important;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+      >a {
+        background: linear-gradient(to bottom right, $teal, $purple) !important;
+        color: white !important;
+
+        .wp-menu-image:before {
+          color: white;
+        }
+      }
+
+      .wp-submenu {
+        display: block;
+        left: 0;
+        top: 100% !important;
+      }
+    }
+
+    &:after {
+      display: none !important;
+    }
+  }
+
+  .wp-submenu {
+    background: $secondary !important;
+
+    @include breakpoint($tablet) {
+      display: none;
+      left: 0;
+      position: absolute !important;
+    }
+
+    a {
+      line-height: 26px !important;
+      color: rgba($teal, 0.6) !important;
+
+      &:hover {
+        color: $teal !important;
+      }
+    }
+  }
+
+  #collapse-menu {
+    display: none;
+  }
+}
+
+#adminmenuback {
+  @include breakpoint($tablet) {
+    display: none !important;
+  }
+}

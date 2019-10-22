@@ -1,0 +1,28 @@
+#wpadminbar {
+  background: $black;
+
+  * {
+    font-family: $primary-font-family;
+  }
+
+  @include breakpoint($tablet) {
+    border-bottom: 1px solid rgba(white, 0.2);
+    box-sizing: border-box;
+    height: 50px !important;
+  }
+
+  .ab-item {
+    @include breakpoint($tablet) {
+      box-sizing: border-box;
+      height: 50px !important;
+      padding: 10px !important;
+    }
+  }
+
+  .ab-sub-wrapper {
+    .ab-item {
+      height: auto !important;
+      padding: 5px 10px !important;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "admin-theme",
+  "version": "1.0.0",
+  "description": "A custom theme for the WordPress admin",
+  "main": "index.js",
+  "author": "Tim Smith",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
+  },
+  "dependencies": {
+    "breakpoint-sass": "^2.7.1"
+  }
+}

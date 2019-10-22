@@ -1,0 +1,20 @@
+#wpadminbar {
+  background: #000000; }
+  #wpadminbar * {
+    font-family: "Open Sans", sans-serif; }
+  @media screen and (min-width: 769px) {
+    #wpadminbar {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      box-sizing: border-box;
+      height: 50px !important; } }
+  @media screen and (min-width: 769px) {
+    #wpadminbar .ab-item {
+      box-sizing: border-box;
+      height: 50px !important;
+      padding: 10px !important; } }
+  #wpadminbar .ab-sub-wrapper .ab-item {
+    height: auto !important;
+    padding: 5px 10px !important; }
+
+body {
+  margin-top: 18px !important; }

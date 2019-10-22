@@ -1,0 +1,43 @@
+#wpcontent {
+  @include breakpoint($tablet) {
+    margin: 0 !important;
+
+    .edit-post-layout__content {
+      margin-left: 32px !important;
+    }
+
+    .edit-post-header__settings {
+      margin-top: 40px !important;
+      height: 100px !important;
+
+      .components-button {
+        &.is-tertiary {
+          background: white;
+          color: rgba($primary, 0.5);
+          padding: 0 !important;
+        }
+      }
+    }
+
+    .edit-post-sidebar {
+      margin-top: 90px !important;
+    }
+
+    .components-notice {
+      width: 1200px !important;
+    }
+
+    .wp-block {
+      max-width: none !important;
+    }
+
+    #wpbody-content {
+      margin-top: 100px !important;
+
+      a {
+        color: midnightblue;
+        font-weight: bold;
+      }
+    }
+  }
+}
