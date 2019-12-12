@@ -289,7 +289,19 @@
         #wpcontent #wpbody-content a:hover {
           text-decoration: underline; }
         #wpcontent #wpbody-content a.submitdelete {
-          color: crimson; } }
+          color: crimson; }
+    #wpcontent .postbox {
+      border: none; }
+      #wpcontent .postbox > button {
+        display: none; }
+      #wpcontent .postbox > h2 {
+        border: none; }
+    #wpcontent #screen-meta-links button {
+      border: none; }
+    #wpcontent .metabox-prefs {
+      border: none; }
+    #wpcontent input[type="checkbox"], #wpcontent input[type="radio"] {
+      border-radius: 2px; } }
 
 html,
 body {
@@ -313,20 +325,16 @@ body {
   .button-primary, .is-button.is-primary {
     background: #0074bd !important;
     border: none !important;
-    color: white !important; }
-    .button-primary:after, .is-button.is-primary:after {
-      content: '';
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: #2e294e;
-      opacity: 0;
-      transition: all 0.5s; }
-    .button-primary:hover:after, .is-button.is-primary:hover:after {
-      opacity: 1; }
+    color: white !important;
+    text-decoration: none !important;
+    transition: all 0.3s; }
+    .button-primary:hover, .is-button.is-primary:hover {
+      background: rgba(0, 116, 189, 0.8) !important; }
+
+.delete-theme {
+  color: crimson !important;
+  background: none !important;
+  border: none !important; }
 
 .theme-actions {
   padding: 0 !important;

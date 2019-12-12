@@ -47,9 +47,34 @@
         }
 
         &.submitdelete {
-          color: crimson;
+          color: $red;
         }
       }
+    }
+
+    .postbox {
+      border: none;
+
+      > button {
+        display: none;
+      }
+      > h2 {
+        border: none;
+      }
+    }
+
+    #screen-meta-links {
+      button {
+        border: none;
+      }
+    }
+
+    .metabox-prefs {
+      border: none;
+    }
+
+    input[type="checkbox"], input[type="radio"] {
+      border-radius: 2px;
     }
   }
 }
