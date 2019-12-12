@@ -81,7 +81,7 @@
     &:focus {
       >a {
         // background: linear-gradient(to bottom right, $teal, $purple) !important;
-        background: rgba($blue, 0.7) !important;
+        background: $blue__dark !important;
         color: white !important;
 
         .wp-menu-image:before {
@@ -113,6 +113,10 @@
 
     a {
       line-height: 26px !important;
+
+      &:hover {
+        color: $blue !important;
+      }
     }
   }
 

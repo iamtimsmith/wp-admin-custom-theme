@@ -232,7 +232,7 @@
   #adminmenuwrap .menu-top.current, #adminmenuwrap .menu-top.wp-has-current-submenu {
     background: #1f1f1f !important; }
   #adminmenuwrap .menu-top:hover > a, #adminmenuwrap .menu-top:active > a, #adminmenuwrap .menu-top:focus > a {
-    background: rgba(0, 185, 235, 0.7) !important;
+    background: #0074bd !important;
     color: white !important; }
     #adminmenuwrap .menu-top:hover > a .wp-menu-image:before, #adminmenuwrap .menu-top:active > a .wp-menu-image:before, #adminmenuwrap .menu-top:focus > a .wp-menu-image:before {
       color: white; }
@@ -251,6 +251,8 @@
         position: absolute !important; } }
     #adminmenuwrap .wp-submenu a {
       line-height: 26px !important; }
+      #adminmenuwrap .wp-submenu a:hover {
+        color: #00b9eb !important; }
   #adminmenuwrap #collapse-menu {
     display: none; }
 
@@ -285,7 +287,9 @@
         color: #0074bd;
         font-weight: bold; }
         #wpcontent #wpbody-content a:hover {
-          text-decoration: underline; } }
+          text-decoration: underline; }
+        #wpcontent #wpbody-content a.submitdelete {
+          color: crimson; } }
 
 html,
 body {
