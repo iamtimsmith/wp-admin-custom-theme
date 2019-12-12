@@ -1,5 +1,5 @@
-.button,
-.is-button {
+.button {
+  position: relative;
   border-radius: 0 !important;
   box-shadow: none !important;
   text-shadow: none !important;
@@ -8,15 +8,52 @@
   width: auto !important;
   font-size: 14px !important;
 
-  &-default,
-  &.is-default {
+  &-default {
     background: white !important;
-    border: 1px solid rgba(black, 0.1) !important;
+    border: 1px solid rgba($blue, 0.1) !important;
   }
 
-  &-primary,
-  &.is-primary {
-    background: linear-gradient(to bottom right, $teal 15%, $purple) !important;
+  &-primary {
+    // background-color: $teal;
+    // background: linear-gradient(to bottom right, $teal 15%, $purple) !important;
+    background: $blue__dark !important;
     border: none !important;
+    color: white !important;
+
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: $purple;
+      opacity: 0;
+      transition: all 0.5s;
+    }
+
+    &:hover {
+      &:after {
+        opacity: 1;
+      }
+    }
   }
+}
+
+.is-button {
+  @extend .button;
+
+  &.is-default {
+    @extend .button-default;
+  }
+
+  &.is-primary {
+    @extend .button-primary;
+  }
+}
+
+.theme-actions {
+  padding: 0 !important;
+  margin-right: 10px;
 }

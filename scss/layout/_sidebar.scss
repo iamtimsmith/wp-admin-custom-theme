@@ -1,6 +1,6 @@
 #adminmenuwrap {
   width: 100% !important;
-  top: 50px !important;
+  top: 39px !important;
 
   #adminmenu {
     background: $black;
@@ -52,6 +52,13 @@
           order: 10;
         }
       }
+      li {
+        @for $i from 11 to 100 {
+          &:nth-child(#{$i}) {
+            order: $i;
+          }
+        }
+      }
     }
   }
 
@@ -65,14 +72,16 @@
 
     &.current,
     &.wp-has-current-submenu {
-      background: linear-gradient(to bottom right, $teal, $purple) !important;
+      // background: linear-gradient(to bottom right, $teal, $purple) !important;
+      background: $black__dark !important;
     }
 
     &:hover,
     &:active,
     &:focus {
       >a {
-        background: linear-gradient(to bottom right, $teal, $purple) !important;
+        // background: linear-gradient(to bottom right, $teal, $purple) !important;
+        background: rgba($blue, 0.7) !important;
         color: white !important;
 
         .wp-menu-image:before {
@@ -93,7 +102,8 @@
   }
 
   .wp-submenu {
-    background: $secondary !important;
+    // background: $secondary !important;
+    background: $black__dark !important;
 
     @include breakpoint($tablet) {
       display: none;
@@ -103,11 +113,6 @@
 
     a {
       line-height: 26px !important;
-      color: rgba($teal, 0.6) !important;
-
-      &:hover {
-        color: $teal !important;
-      }
     }
   }
 

@@ -3,6 +3,6 @@
 
 @import 'layout/topbar';
 
-body {
+body.logged-in.admin-bar {
   margin-top: 18px !important;
 }

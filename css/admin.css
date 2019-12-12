@@ -1,53 +1,26 @@
-html,
-body {
-  font-family: "Open Sans", sans-serif !important;
-  overflow-x: hidden;
-  margin: 0 !important;
-  padding: 0 !important; }
-
-.button,
-.is-button {
-  border-radius: 0 !important;
-  box-shadow: none !important;
-  text-shadow: none !important;
-  padding: 5px 15px !important;
-  height: auto !important;
-  width: auto !important;
-  font-size: 14px !important; }
-  .button-default, .button.is-default,
-  .is-button-default,
-  .is-button.is-default {
-    background: white !important;
-    border: 1px solid rgba(0, 0, 0, 0.1) !important; }
-  .button-primary, .button.is-primary,
-  .is-button-primary,
-  .is-button.is-primary {
-    background: linear-gradient(to bottom right, #41E0D3 15%, #2e294e) !important;
-    border: none !important; }
-
 #wpadminbar {
-  background: #000000; }
+  background: #2d2d2d; }
   #wpadminbar * {
     font-family: "Open Sans", sans-serif; }
   @media screen and (min-width: 769px) {
     #wpadminbar {
       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
       box-sizing: border-box;
-      height: 50px !important; } }
+      height: 39px !important; } }
   @media screen and (min-width: 769px) {
     #wpadminbar .ab-item {
       box-sizing: border-box;
-      height: 50px !important;
-      padding: 10px !important; } }
+      height: 39px !important;
+      padding: 2px 10px !important; } }
   #wpadminbar .ab-sub-wrapper .ab-item {
     height: auto !important;
     padding: 5px 10px !important; }
 
 #adminmenuwrap {
   width: 100% !important;
-  top: 50px !important; }
+  top: 39px !important; }
   #adminmenuwrap #adminmenu {
-    background: #000000; }
+    background: #2d2d2d; }
     @media screen and (min-width: 769px) {
       #adminmenuwrap #adminmenu {
         width: 100%;
@@ -73,15 +46,193 @@ body {
         #adminmenuwrap #adminmenu #menu-tools {
           order: 9; }
         #adminmenuwrap #adminmenu #menu-settings {
-          order: 10; } }
+          order: 10; }
+        #adminmenuwrap #adminmenu li:nth-child(11) {
+          order: 11; }
+        #adminmenuwrap #adminmenu li:nth-child(12) {
+          order: 12; }
+        #adminmenuwrap #adminmenu li:nth-child(13) {
+          order: 13; }
+        #adminmenuwrap #adminmenu li:nth-child(14) {
+          order: 14; }
+        #adminmenuwrap #adminmenu li:nth-child(15) {
+          order: 15; }
+        #adminmenuwrap #adminmenu li:nth-child(16) {
+          order: 16; }
+        #adminmenuwrap #adminmenu li:nth-child(17) {
+          order: 17; }
+        #adminmenuwrap #adminmenu li:nth-child(18) {
+          order: 18; }
+        #adminmenuwrap #adminmenu li:nth-child(19) {
+          order: 19; }
+        #adminmenuwrap #adminmenu li:nth-child(20) {
+          order: 20; }
+        #adminmenuwrap #adminmenu li:nth-child(21) {
+          order: 21; }
+        #adminmenuwrap #adminmenu li:nth-child(22) {
+          order: 22; }
+        #adminmenuwrap #adminmenu li:nth-child(23) {
+          order: 23; }
+        #adminmenuwrap #adminmenu li:nth-child(24) {
+          order: 24; }
+        #adminmenuwrap #adminmenu li:nth-child(25) {
+          order: 25; }
+        #adminmenuwrap #adminmenu li:nth-child(26) {
+          order: 26; }
+        #adminmenuwrap #adminmenu li:nth-child(27) {
+          order: 27; }
+        #adminmenuwrap #adminmenu li:nth-child(28) {
+          order: 28; }
+        #adminmenuwrap #adminmenu li:nth-child(29) {
+          order: 29; }
+        #adminmenuwrap #adminmenu li:nth-child(30) {
+          order: 30; }
+        #adminmenuwrap #adminmenu li:nth-child(31) {
+          order: 31; }
+        #adminmenuwrap #adminmenu li:nth-child(32) {
+          order: 32; }
+        #adminmenuwrap #adminmenu li:nth-child(33) {
+          order: 33; }
+        #adminmenuwrap #adminmenu li:nth-child(34) {
+          order: 34; }
+        #adminmenuwrap #adminmenu li:nth-child(35) {
+          order: 35; }
+        #adminmenuwrap #adminmenu li:nth-child(36) {
+          order: 36; }
+        #adminmenuwrap #adminmenu li:nth-child(37) {
+          order: 37; }
+        #adminmenuwrap #adminmenu li:nth-child(38) {
+          order: 38; }
+        #adminmenuwrap #adminmenu li:nth-child(39) {
+          order: 39; }
+        #adminmenuwrap #adminmenu li:nth-child(40) {
+          order: 40; }
+        #adminmenuwrap #adminmenu li:nth-child(41) {
+          order: 41; }
+        #adminmenuwrap #adminmenu li:nth-child(42) {
+          order: 42; }
+        #adminmenuwrap #adminmenu li:nth-child(43) {
+          order: 43; }
+        #adminmenuwrap #adminmenu li:nth-child(44) {
+          order: 44; }
+        #adminmenuwrap #adminmenu li:nth-child(45) {
+          order: 45; }
+        #adminmenuwrap #adminmenu li:nth-child(46) {
+          order: 46; }
+        #adminmenuwrap #adminmenu li:nth-child(47) {
+          order: 47; }
+        #adminmenuwrap #adminmenu li:nth-child(48) {
+          order: 48; }
+        #adminmenuwrap #adminmenu li:nth-child(49) {
+          order: 49; }
+        #adminmenuwrap #adminmenu li:nth-child(50) {
+          order: 50; }
+        #adminmenuwrap #adminmenu li:nth-child(51) {
+          order: 51; }
+        #adminmenuwrap #adminmenu li:nth-child(52) {
+          order: 52; }
+        #adminmenuwrap #adminmenu li:nth-child(53) {
+          order: 53; }
+        #adminmenuwrap #adminmenu li:nth-child(54) {
+          order: 54; }
+        #adminmenuwrap #adminmenu li:nth-child(55) {
+          order: 55; }
+        #adminmenuwrap #adminmenu li:nth-child(56) {
+          order: 56; }
+        #adminmenuwrap #adminmenu li:nth-child(57) {
+          order: 57; }
+        #adminmenuwrap #adminmenu li:nth-child(58) {
+          order: 58; }
+        #adminmenuwrap #adminmenu li:nth-child(59) {
+          order: 59; }
+        #adminmenuwrap #adminmenu li:nth-child(60) {
+          order: 60; }
+        #adminmenuwrap #adminmenu li:nth-child(61) {
+          order: 61; }
+        #adminmenuwrap #adminmenu li:nth-child(62) {
+          order: 62; }
+        #adminmenuwrap #adminmenu li:nth-child(63) {
+          order: 63; }
+        #adminmenuwrap #adminmenu li:nth-child(64) {
+          order: 64; }
+        #adminmenuwrap #adminmenu li:nth-child(65) {
+          order: 65; }
+        #adminmenuwrap #adminmenu li:nth-child(66) {
+          order: 66; }
+        #adminmenuwrap #adminmenu li:nth-child(67) {
+          order: 67; }
+        #adminmenuwrap #adminmenu li:nth-child(68) {
+          order: 68; }
+        #adminmenuwrap #adminmenu li:nth-child(69) {
+          order: 69; }
+        #adminmenuwrap #adminmenu li:nth-child(70) {
+          order: 70; }
+        #adminmenuwrap #adminmenu li:nth-child(71) {
+          order: 71; }
+        #adminmenuwrap #adminmenu li:nth-child(72) {
+          order: 72; }
+        #adminmenuwrap #adminmenu li:nth-child(73) {
+          order: 73; }
+        #adminmenuwrap #adminmenu li:nth-child(74) {
+          order: 74; }
+        #adminmenuwrap #adminmenu li:nth-child(75) {
+          order: 75; }
+        #adminmenuwrap #adminmenu li:nth-child(76) {
+          order: 76; }
+        #adminmenuwrap #adminmenu li:nth-child(77) {
+          order: 77; }
+        #adminmenuwrap #adminmenu li:nth-child(78) {
+          order: 78; }
+        #adminmenuwrap #adminmenu li:nth-child(79) {
+          order: 79; }
+        #adminmenuwrap #adminmenu li:nth-child(80) {
+          order: 80; }
+        #adminmenuwrap #adminmenu li:nth-child(81) {
+          order: 81; }
+        #adminmenuwrap #adminmenu li:nth-child(82) {
+          order: 82; }
+        #adminmenuwrap #adminmenu li:nth-child(83) {
+          order: 83; }
+        #adminmenuwrap #adminmenu li:nth-child(84) {
+          order: 84; }
+        #adminmenuwrap #adminmenu li:nth-child(85) {
+          order: 85; }
+        #adminmenuwrap #adminmenu li:nth-child(86) {
+          order: 86; }
+        #adminmenuwrap #adminmenu li:nth-child(87) {
+          order: 87; }
+        #adminmenuwrap #adminmenu li:nth-child(88) {
+          order: 88; }
+        #adminmenuwrap #adminmenu li:nth-child(89) {
+          order: 89; }
+        #adminmenuwrap #adminmenu li:nth-child(90) {
+          order: 90; }
+        #adminmenuwrap #adminmenu li:nth-child(91) {
+          order: 91; }
+        #adminmenuwrap #adminmenu li:nth-child(92) {
+          order: 92; }
+        #adminmenuwrap #adminmenu li:nth-child(93) {
+          order: 93; }
+        #adminmenuwrap #adminmenu li:nth-child(94) {
+          order: 94; }
+        #adminmenuwrap #adminmenu li:nth-child(95) {
+          order: 95; }
+        #adminmenuwrap #adminmenu li:nth-child(96) {
+          order: 96; }
+        #adminmenuwrap #adminmenu li:nth-child(97) {
+          order: 97; }
+        #adminmenuwrap #adminmenu li:nth-child(98) {
+          order: 98; }
+        #adminmenuwrap #adminmenu li:nth-child(99) {
+          order: 99; } }
   @media screen and (min-width: 769px) {
     #adminmenuwrap .menu-top a {
       display: flex;
       padding: 5px 15px !important; } }
   #adminmenuwrap .menu-top.current, #adminmenuwrap .menu-top.wp-has-current-submenu {
-    background: linear-gradient(to bottom right, #41E0D3, #2e294e) !important; }
+    background: #1f1f1f !important; }
   #adminmenuwrap .menu-top:hover > a, #adminmenuwrap .menu-top:active > a, #adminmenuwrap .menu-top:focus > a {
-    background: linear-gradient(to bottom right, #41E0D3, #2e294e) !important;
+    background: rgba(0, 185, 235, 0.7) !important;
     color: white !important; }
     #adminmenuwrap .menu-top:hover > a .wp-menu-image:before, #adminmenuwrap .menu-top:active > a .wp-menu-image:before, #adminmenuwrap .menu-top:focus > a .wp-menu-image:before {
       color: white; }
@@ -92,17 +243,14 @@ body {
   #adminmenuwrap .menu-top:after {
     display: none !important; }
   #adminmenuwrap .wp-submenu {
-    background: #2e294e !important; }
+    background: #1f1f1f !important; }
     @media screen and (min-width: 769px) {
       #adminmenuwrap .wp-submenu {
         display: none;
         left: 0;
         position: absolute !important; } }
     #adminmenuwrap .wp-submenu a {
-      line-height: 26px !important;
-      color: rgba(65, 224, 211, 0.6) !important; }
-      #adminmenuwrap .wp-submenu a:hover {
-        color: #41E0D3 !important; }
+      line-height: 26px !important; }
   #adminmenuwrap #collapse-menu {
     display: none; }
 
@@ -114,14 +262,17 @@ body {
   #wpcontent {
     margin: 0 !important; }
     #wpcontent .edit-post-layout__content {
-      margin-left: 32px !important; }
-    #wpcontent .edit-post-header__settings {
-      margin-top: 40px !important;
-      height: 100px !important; }
-      #wpcontent .edit-post-header__settings .components-button.is-tertiary {
-        background: white;
-        color: rgba(25, 11, 40, 0.5);
-        padding: 0 !important; }
+      margin-left: 0px !important; }
+    #wpcontent .edit-post-header {
+      top: 100px;
+      left: 0; }
+      #wpcontent .edit-post-header__settings {
+        margin-top: -35px !important;
+        height: 100px !important; }
+        #wpcontent .edit-post-header__settings .components-button.is-tertiary {
+          background: white;
+          color: rgba(25, 11, 40, 0.5);
+          padding: 0 !important; }
     #wpcontent .edit-post-sidebar {
       margin-top: 90px !important; }
     #wpcontent .components-notice {
@@ -131,5 +282,48 @@ body {
     #wpcontent #wpbody-content {
       margin-top: 100px !important; }
       #wpcontent #wpbody-content a {
-        color: midnightblue;
-        font-weight: bold; } }
+        color: #0074bd;
+        font-weight: bold; }
+        #wpcontent #wpbody-content a:hover {
+          text-decoration: underline; } }
+
+html,
+body {
+  font-family: "Open Sans", sans-serif !important;
+  overflow-x: hidden;
+  margin: 0 !important;
+  padding: 0 !important; }
+
+.button, .is-button {
+  position: relative;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  padding: 5px 15px !important;
+  height: auto !important;
+  width: auto !important;
+  font-size: 14px !important; }
+  .button-default, .is-button.is-default {
+    background: white !important;
+    border: 1px solid rgba(0, 185, 235, 0.1) !important; }
+  .button-primary, .is-button.is-primary {
+    background: #0074bd !important;
+    border: none !important;
+    color: white !important; }
+    .button-primary:after, .is-button.is-primary:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #2e294e;
+      opacity: 0;
+      transition: all 0.5s; }
+    .button-primary:hover:after, .is-button.is-primary:hover:after {
+      opacity: 1; }
+
+.theme-actions {
+  padding: 0 !important;
+  margin-right: 10px; }

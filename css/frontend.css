@@ -1,20 +1,20 @@
 #wpadminbar {
-  background: #000000; }
+  background: #2d2d2d; }
   #wpadminbar * {
     font-family: "Open Sans", sans-serif; }
   @media screen and (min-width: 769px) {
     #wpadminbar {
       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
       box-sizing: border-box;
-      height: 50px !important; } }
+      height: 39px !important; } }
   @media screen and (min-width: 769px) {
     #wpadminbar .ab-item {
       box-sizing: border-box;
-      height: 50px !important;
-      padding: 10px !important; } }
+      height: 39px !important;
+      padding: 2px 10px !important; } }
   #wpadminbar .ab-sub-wrapper .ab-item {
     height: auto !important;
     padding: 5px 10px !important; }
 
-body {
+body.logged-in.admin-bar {
   margin-top: 18px !important; }

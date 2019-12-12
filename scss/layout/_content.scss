@@ -3,18 +3,23 @@
     margin: 0 !important;
 
     .edit-post-layout__content {
-      margin-left: 32px !important;
+      margin-left: 0px !important;
     }
 
-    .edit-post-header__settings {
-      margin-top: 40px !important;
+    .edit-post-header {
+      top: 100px;
+      left: 0;
+
+      &__settings {
+      margin-top: -35px !important;
       height: 100px !important;
 
-      .components-button {
-        &.is-tertiary {
-          background: white;
-          color: rgba($primary, 0.5);
-          padding: 0 !important;
+        .components-button {
+          &.is-tertiary {
+            background: white;
+            color: rgba($primary, 0.5);
+            padding: 0 !important;
+          }
         }
       }
     }
@@ -35,8 +40,11 @@
       margin-top: 100px !important;
 
       a {
-        color: midnightblue;
+        color: $blue__dark;
         font-weight: bold;
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
   }
