@@ -19,3 +19,14 @@ function frontend_style() {
   wp_enqueue_style('frontend-styles', plugins_url('css/frontend.min.css', __FILE__));
 }
 add_action('wp_enqueue_scripts', 'frontend_style');
+
+// Set order of starting items
+function change_menu_order( $menu_order ) {
+  return array(
+      'index.php',
+      'edit.php?post_type=page',
+      'edit.php',
+  );
+}
+add_filter( 'custom_menu_order', '__return_true' );
+add_filter( 'menu_order', 'change_menu_order' );
