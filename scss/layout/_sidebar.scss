@@ -11,54 +11,87 @@
       flex-direction: row;
       margin: 0 !important;
 
-      #menu {
-        &-dashboard {
-          order: 1;
-        }
-
-        &-pages {
-          order: 2;
-        }
-
-        &-posts {
-          order: 3;
-        }
-
-        &-comments {
-          order: 4;
-        }
-
-        &-media {
-          order: 5;
-        }
-
-        &-appearance {
-          order: 6;
-        }
-
-        &-users {
-          order: 7;
-        }
-
-        &-plugins {
-          order: 8;
-        }
-
-        &-tools {
-          order: 9;
-        }
-
-        &-settings {
-          order: 10;
-        }
+      > li:nth-child(n + 12):not(.menu-top-more) {
+        display: none !important;
       }
-      li {
-        @for $i from 11 to 100 {
-          &:nth-child(#{$i}) {
-            order: $i;
+      .menu-top-more {
+        > ul {
+          > li {
+            &.wp-menu-separator {
+              display: none !important;
+            }
+            > a {
+              color: white !important;
+              line-height: 10px !important;
+              .wp-menu-image {
+                display: none !important;
+              }
+            }
+            .wp-submenu {
+              top: 0 !important;
+              left: 100% !important;
+              display: none;
+              
+            }
+          }
+        }
+        li.wp-has-submenu{
+          &:hover {
+            .wp-submenu {
+              display: block;
+            }
           }
         }
       }
+
+      // #menu {
+      //   &-dashboard {
+      //     order: 1;
+      //   }
+
+      //   &-pages {
+      //     order: 2;
+      //   }
+
+      //   &-posts {
+      //     order: 3;
+      //   }
+
+      //   &-comments {
+      //     order: 4;
+      //   }
+
+      //   &-media {
+      //     order: 5;
+      //   }
+
+      //   &-appearance {
+      //     order: 6;
+      //   }
+
+      //   &-users {
+      //     order: 7;
+      //   }
+
+      //   &-plugins {
+      //     order: 8;
+      //   }
+
+      //   &-tools {
+      //     order: 9;
+      //   }
+
+      //   &-settings {
+      //     order: 10;
+      //   }
+      // }
+      // li {
+      //   @for $i from 11 to 100 {
+      //     &:nth-child(#{$i}) {
+      //       order: $i;
+      //     }
+      //   }
+      // }
     }
   }
 

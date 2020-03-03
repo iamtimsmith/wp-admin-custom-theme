@@ -27,204 +27,21 @@
         display: flex;
         flex-direction: row;
         margin: 0 !important; }
-        #adminmenuwrap #adminmenu #menu-dashboard {
-          order: 1; }
-        #adminmenuwrap #adminmenu #menu-pages {
-          order: 2; }
-        #adminmenuwrap #adminmenu #menu-posts {
-          order: 3; }
-        #adminmenuwrap #adminmenu #menu-comments {
-          order: 4; }
-        #adminmenuwrap #adminmenu #menu-media {
-          order: 5; }
-        #adminmenuwrap #adminmenu #menu-appearance {
-          order: 6; }
-        #adminmenuwrap #adminmenu #menu-users {
-          order: 7; }
-        #adminmenuwrap #adminmenu #menu-plugins {
-          order: 8; }
-        #adminmenuwrap #adminmenu #menu-tools {
-          order: 9; }
-        #adminmenuwrap #adminmenu #menu-settings {
-          order: 10; }
-        #adminmenuwrap #adminmenu li:nth-child(11) {
-          order: 11; }
-        #adminmenuwrap #adminmenu li:nth-child(12) {
-          order: 12; }
-        #adminmenuwrap #adminmenu li:nth-child(13) {
-          order: 13; }
-        #adminmenuwrap #adminmenu li:nth-child(14) {
-          order: 14; }
-        #adminmenuwrap #adminmenu li:nth-child(15) {
-          order: 15; }
-        #adminmenuwrap #adminmenu li:nth-child(16) {
-          order: 16; }
-        #adminmenuwrap #adminmenu li:nth-child(17) {
-          order: 17; }
-        #adminmenuwrap #adminmenu li:nth-child(18) {
-          order: 18; }
-        #adminmenuwrap #adminmenu li:nth-child(19) {
-          order: 19; }
-        #adminmenuwrap #adminmenu li:nth-child(20) {
-          order: 20; }
-        #adminmenuwrap #adminmenu li:nth-child(21) {
-          order: 21; }
-        #adminmenuwrap #adminmenu li:nth-child(22) {
-          order: 22; }
-        #adminmenuwrap #adminmenu li:nth-child(23) {
-          order: 23; }
-        #adminmenuwrap #adminmenu li:nth-child(24) {
-          order: 24; }
-        #adminmenuwrap #adminmenu li:nth-child(25) {
-          order: 25; }
-        #adminmenuwrap #adminmenu li:nth-child(26) {
-          order: 26; }
-        #adminmenuwrap #adminmenu li:nth-child(27) {
-          order: 27; }
-        #adminmenuwrap #adminmenu li:nth-child(28) {
-          order: 28; }
-        #adminmenuwrap #adminmenu li:nth-child(29) {
-          order: 29; }
-        #adminmenuwrap #adminmenu li:nth-child(30) {
-          order: 30; }
-        #adminmenuwrap #adminmenu li:nth-child(31) {
-          order: 31; }
-        #adminmenuwrap #adminmenu li:nth-child(32) {
-          order: 32; }
-        #adminmenuwrap #adminmenu li:nth-child(33) {
-          order: 33; }
-        #adminmenuwrap #adminmenu li:nth-child(34) {
-          order: 34; }
-        #adminmenuwrap #adminmenu li:nth-child(35) {
-          order: 35; }
-        #adminmenuwrap #adminmenu li:nth-child(36) {
-          order: 36; }
-        #adminmenuwrap #adminmenu li:nth-child(37) {
-          order: 37; }
-        #adminmenuwrap #adminmenu li:nth-child(38) {
-          order: 38; }
-        #adminmenuwrap #adminmenu li:nth-child(39) {
-          order: 39; }
-        #adminmenuwrap #adminmenu li:nth-child(40) {
-          order: 40; }
-        #adminmenuwrap #adminmenu li:nth-child(41) {
-          order: 41; }
-        #adminmenuwrap #adminmenu li:nth-child(42) {
-          order: 42; }
-        #adminmenuwrap #adminmenu li:nth-child(43) {
-          order: 43; }
-        #adminmenuwrap #adminmenu li:nth-child(44) {
-          order: 44; }
-        #adminmenuwrap #adminmenu li:nth-child(45) {
-          order: 45; }
-        #adminmenuwrap #adminmenu li:nth-child(46) {
-          order: 46; }
-        #adminmenuwrap #adminmenu li:nth-child(47) {
-          order: 47; }
-        #adminmenuwrap #adminmenu li:nth-child(48) {
-          order: 48; }
-        #adminmenuwrap #adminmenu li:nth-child(49) {
-          order: 49; }
-        #adminmenuwrap #adminmenu li:nth-child(50) {
-          order: 50; }
-        #adminmenuwrap #adminmenu li:nth-child(51) {
-          order: 51; }
-        #adminmenuwrap #adminmenu li:nth-child(52) {
-          order: 52; }
-        #adminmenuwrap #adminmenu li:nth-child(53) {
-          order: 53; }
-        #adminmenuwrap #adminmenu li:nth-child(54) {
-          order: 54; }
-        #adminmenuwrap #adminmenu li:nth-child(55) {
-          order: 55; }
-        #adminmenuwrap #adminmenu li:nth-child(56) {
-          order: 56; }
-        #adminmenuwrap #adminmenu li:nth-child(57) {
-          order: 57; }
-        #adminmenuwrap #adminmenu li:nth-child(58) {
-          order: 58; }
-        #adminmenuwrap #adminmenu li:nth-child(59) {
-          order: 59; }
-        #adminmenuwrap #adminmenu li:nth-child(60) {
-          order: 60; }
-        #adminmenuwrap #adminmenu li:nth-child(61) {
-          order: 61; }
-        #adminmenuwrap #adminmenu li:nth-child(62) {
-          order: 62; }
-        #adminmenuwrap #adminmenu li:nth-child(63) {
-          order: 63; }
-        #adminmenuwrap #adminmenu li:nth-child(64) {
-          order: 64; }
-        #adminmenuwrap #adminmenu li:nth-child(65) {
-          order: 65; }
-        #adminmenuwrap #adminmenu li:nth-child(66) {
-          order: 66; }
-        #adminmenuwrap #adminmenu li:nth-child(67) {
-          order: 67; }
-        #adminmenuwrap #adminmenu li:nth-child(68) {
-          order: 68; }
-        #adminmenuwrap #adminmenu li:nth-child(69) {
-          order: 69; }
-        #adminmenuwrap #adminmenu li:nth-child(70) {
-          order: 70; }
-        #adminmenuwrap #adminmenu li:nth-child(71) {
-          order: 71; }
-        #adminmenuwrap #adminmenu li:nth-child(72) {
-          order: 72; }
-        #adminmenuwrap #adminmenu li:nth-child(73) {
-          order: 73; }
-        #adminmenuwrap #adminmenu li:nth-child(74) {
-          order: 74; }
-        #adminmenuwrap #adminmenu li:nth-child(75) {
-          order: 75; }
-        #adminmenuwrap #adminmenu li:nth-child(76) {
-          order: 76; }
-        #adminmenuwrap #adminmenu li:nth-child(77) {
-          order: 77; }
-        #adminmenuwrap #adminmenu li:nth-child(78) {
-          order: 78; }
-        #adminmenuwrap #adminmenu li:nth-child(79) {
-          order: 79; }
-        #adminmenuwrap #adminmenu li:nth-child(80) {
-          order: 80; }
-        #adminmenuwrap #adminmenu li:nth-child(81) {
-          order: 81; }
-        #adminmenuwrap #adminmenu li:nth-child(82) {
-          order: 82; }
-        #adminmenuwrap #adminmenu li:nth-child(83) {
-          order: 83; }
-        #adminmenuwrap #adminmenu li:nth-child(84) {
-          order: 84; }
-        #adminmenuwrap #adminmenu li:nth-child(85) {
-          order: 85; }
-        #adminmenuwrap #adminmenu li:nth-child(86) {
-          order: 86; }
-        #adminmenuwrap #adminmenu li:nth-child(87) {
-          order: 87; }
-        #adminmenuwrap #adminmenu li:nth-child(88) {
-          order: 88; }
-        #adminmenuwrap #adminmenu li:nth-child(89) {
-          order: 89; }
-        #adminmenuwrap #adminmenu li:nth-child(90) {
-          order: 90; }
-        #adminmenuwrap #adminmenu li:nth-child(91) {
-          order: 91; }
-        #adminmenuwrap #adminmenu li:nth-child(92) {
-          order: 92; }
-        #adminmenuwrap #adminmenu li:nth-child(93) {
-          order: 93; }
-        #adminmenuwrap #adminmenu li:nth-child(94) {
-          order: 94; }
-        #adminmenuwrap #adminmenu li:nth-child(95) {
-          order: 95; }
-        #adminmenuwrap #adminmenu li:nth-child(96) {
-          order: 96; }
-        #adminmenuwrap #adminmenu li:nth-child(97) {
-          order: 97; }
-        #adminmenuwrap #adminmenu li:nth-child(98) {
-          order: 98; }
-        #adminmenuwrap #adminmenu li:nth-child(99) {
-          order: 99; } }
+        #adminmenuwrap #adminmenu > li:nth-child(n + 12):not(.menu-top-more) {
+          display: none !important; }
+        #adminmenuwrap #adminmenu .menu-top-more > ul > li.wp-menu-separator {
+          display: none !important; }
+        #adminmenuwrap #adminmenu .menu-top-more > ul > li > a {
+          color: white !important;
+          line-height: 10px !important; }
+          #adminmenuwrap #adminmenu .menu-top-more > ul > li > a .wp-menu-image {
+            display: none !important; }
+        #adminmenuwrap #adminmenu .menu-top-more > ul > li .wp-submenu {
+          top: 0 !important;
+          left: 100% !important;
+          display: none; }
+        #adminmenuwrap #adminmenu .menu-top-more li.wp-has-submenu:hover .wp-submenu {
+          display: block; } }
   @media screen and (min-width: 769px) {
     #adminmenuwrap .menu-top a {
       display: flex;
