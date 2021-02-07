@@ -27,6 +27,8 @@
         display: flex;
         flex-direction: row;
         margin: 0 !important; }
+        #adminmenuwrap #adminmenu > li:nth-child(-n + 12) .wp-menu-name {
+          padding: 8px; }
         #adminmenuwrap #adminmenu > li:nth-child(n + 12):not(.menu-top-more) {
           display: none !important; }
         #adminmenuwrap #adminmenu .menu-top-more > ul > li.wp-menu-separator {
@@ -66,12 +68,12 @@
         display: none;
         left: 0;
         position: absolute !important; } }
-    #adminmenuwrap .wp-submenu a {
-      line-height: 26px !important; }
-      #adminmenuwrap .wp-submenu a:hover {
-        color: #00b9eb !important; }
+    #adminmenuwrap .wp-submenu a:hover {
+      color: #00b9eb !important; }
   #adminmenuwrap #collapse-menu {
     display: none; }
+  #adminmenuwrap .wp-menu-name {
+    line-height: 1.4; }
 
 @media screen and (min-width: 769px) {
   #adminmenuback {
@@ -147,6 +149,9 @@ body {
     transition: all 0.3s; }
     .button-primary:hover, .is-button.is-primary:hover {
       background: rgba(0, 116, 189, 0.8) !important; }
+  .button-small {
+    padding: 0px 10px !important;
+    line-height: 1.2 !important; }
 
 .delete-theme {
   color: crimson !important;

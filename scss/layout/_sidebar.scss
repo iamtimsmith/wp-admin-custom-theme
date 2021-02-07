@@ -11,6 +11,11 @@
       flex-direction: row;
       margin: 0 !important;
 
+      > li:nth-child(-n + 12) {
+        .wp-menu-name {
+          padding: 8px;
+        }
+      }
       > li:nth-child(n + 12):not(.menu-top-more) {
         display: none !important;
       }
@@ -145,8 +150,6 @@
     }
 
     a {
-      line-height: 26px !important;
-
       &:hover {
         color: $blue !important;
       }
@@ -155,6 +158,10 @@
 
   #collapse-menu {
     display: none;
+  }
+
+  .wp-menu-name {
+    line-height: 1.4;
   }
 }
 
