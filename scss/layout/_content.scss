@@ -6,6 +6,11 @@
       margin-left: 0px !important;
     }
 
+    .edit-post-visual-editor {
+      max-width: 800px !important;
+      margin: 0 auto !important;
+    }
+
     .edit-post-header {
       top: 100px;
       left: 0;
@@ -32,9 +37,9 @@
       width: 1200px !important;
     }
 
-    .wp-block {
-      max-width: none !important;
-    }
+    // .wp-block {
+    //   max-width: none !important;
+    // }
 
     #wpbody-content {
       margin-top: 100px !important;

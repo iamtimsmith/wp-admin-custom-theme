@@ -84,6 +84,9 @@
     margin: 0 !important; }
     #wpcontent .edit-post-layout__content {
       margin-left: 0px !important; }
+    #wpcontent .edit-post-visual-editor {
+      max-width: 800px !important;
+      margin: 0 auto !important; }
     #wpcontent .edit-post-header {
       top: 100px;
       left: 0; }
@@ -94,12 +97,8 @@
           background: white;
           color: rgba(25, 11, 40, 0.5);
           padding: 0 !important; }
-    #wpcontent .edit-post-sidebar {
-      margin-top: 90px !important; }
     #wpcontent .components-notice {
       width: 1200px !important; }
-    #wpcontent .wp-block {
-      max-width: none !important; }
     #wpcontent #wpbody-content {
       margin-top: 100px !important; }
       #wpcontent #wpbody-content a {
@@ -119,7 +118,8 @@
       border: none; }
     #wpcontent .metabox-prefs {
       border: none; }
-    #wpcontent input[type="checkbox"], #wpcontent input[type="radio"] {
+    #wpcontent input[type="checkbox"],
+    #wpcontent input[type="radio"] {
       border-radius: 2px; } }
 
 html,

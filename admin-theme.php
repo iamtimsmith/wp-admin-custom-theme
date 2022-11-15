@@ -9,7 +9,7 @@
 // Update CSS within in Admin
 function admin_style() {
   wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans:400&display=swap');
-  wp_enqueue_style('admin-styles', plugins_url('css/admin.min.css', __FILE__));
+  wp_enqueue_style('admin-styles', plugins_url('css/admin.min.css', __FILE__), [], time());
   wp_enqueue_script('admin-scripts', plugins_url('js/admin.js', __FILE__), array('jquery'), '1.0.0', true);
 }
 add_action('admin_init', 'admin_style');
