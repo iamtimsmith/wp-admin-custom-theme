@@ -11,8 +11,8 @@
       left: 0;
 
       &__settings {
-      margin-top: -35px !important;
-      height: 100px !important;
+        margin-top: -35px !important;
+        height: 100px !important;
 
         .components-button {
           &.is-tertiary {
@@ -24,9 +24,9 @@
       }
     }
 
-    .edit-post-sidebar {
-      margin-top: 90px !important;
-    }
+    // .edit-post-sidebar {
+    //   margin-top: 90px !important;
+    // }
 
     .components-notice {
       width: 1200px !important;
@@ -73,7 +73,8 @@
       border: none;
     }
 
-    input[type="checkbox"], input[type="radio"] {
+    input[type="checkbox"],
+    input[type="radio"] {
       border-radius: 2px;
     }
   }
