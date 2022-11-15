@@ -122,6 +122,9 @@
     #wpcontent input[type="radio"] {
       border-radius: 2px; } }
 
+#wpcontent .components-flex * {
+  color: #2d2d2d; }
+
 html,
 body {
   font-family: "Open Sans", sans-serif !important;
